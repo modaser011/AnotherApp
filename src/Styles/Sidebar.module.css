@@ -1,0 +1,87 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    background-color: #181818;
+    transition: width 0.5s ease-in-out;
+    overflow: hidden;
+    margin-right: 5rem !important;
+    z-index: 9999999999;
+}
+
+.partialSidebar {
+    height: 100%;
+    width: 100%;
+    background-color: #181818;
+}
+
+.fullSidebar {
+    background-color: #181818;
+    width: 170px;
+    height: 100%;
+}
+
+.sidebar:hover {
+    width: 170px;
+}
+
+.logo2,
+.mainLogo {
+    transition: width 0.9s ease;
+    display: block !important;
+    width: 1.2rem;
+}
+
+.logo2 {
+    width: 24px;
+    height: 24px;
+}
+
+.Links:hover {
+    color: #53ACFF !important;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.person {
+    width: 40px;
+    height: 40px;
+    /* left: 0; */
+}
+
+.personWrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: -1rem;
+    margin-bottom: 0.2rem;
+}
+
+.person2 {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
+
+.comingSoon {
+    color: white !important;
+    padding-block: 2px;
+    z-index: 9999999;
+    transition: 0.7s ease !important;
+    transition: transform 0.3s, opacity 0.3s !important;
+    filter: blur(0px) !important;
+    /* background-color: rgba(0, 158, 250, 0); */
+}
+
+.comingSoonDiv {
+    width: 90%;
+    background-color: rgba(0, 158, 250, 0.9);
+    backdrop-filter: blur(190px) !important;
+    filter: blur(10px) !important;
+    transition: width 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out, filter 0.3s ease-in-out;
+    /* Ensure no additional blur is applied */
+}

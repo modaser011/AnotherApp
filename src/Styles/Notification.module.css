@@ -1,0 +1,54 @@
+.Not_row {
+    border-radius: .5rem;
+    color: white !important;
+    background-color: hsl(0, 0%, 19%) !important;
+    padding-bottom: .8rem;
+    padding-top: .8rem;
+    cursor: pointer;
+}
+
+.ExpandNot_row {
+    border-radius: .5rem;
+    color: white !important;
+    background-color: #53ACFF !important;
+    padding-top: .55rem;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+}
+
+.img4 {
+    border: 1px solid rgb(128, 128, 128);
+}
+
+.colNot {
+    /* border-radius: .57rem; */
+    border-right: 2px solid #414040;
+    /* Add vertical line to all columns */
+    padding-right: 15px;
+    /* Adjust as needed */
+}
+
+.ExpandcolNot {
+    border-right: 2px solid #ffffff;
+    padding-right: 15px;
+}
+
+.colNot:last-child {
+    border-right: none;
+}
+
+.internalRow {
+    background-color: hsl(0, 0%, 19%) !important;
+    margin-top: 1.4rem !important;
+    border-radius: 0 0 .4rem .4rem;
+    cursor: auto;
+}
+
+@media only screen and (min-width: 500px) {
+    .img123 {
+        margin-right: 2rem !important;
+    }
+    .img4 {
+        margin-right: 2rem !important;
+    }
+}
